@@ -234,7 +234,7 @@ CanvasDisplay.prototype.clearDisplay = function(status) {
 };
 
 var otherSprites = document.createElement("img");
-otherSprites.src = "./res/images/sprites.png";
+otherSprites.src = "res/images/sprites.png";
 
 CanvasDisplay.prototype.drawBackground = function(level) {
     let {left, top, width, height} = this.viewport;
@@ -257,7 +257,7 @@ CanvasDisplay.prototype.drawBackground = function(level) {
 };
 
 let playerSprites = document.createElement("img");
-playerSprites.src = "./res/images/player.png";
+playerSprites.src = "res/images/player.png";
 const playerXOverlap = 4;
 
 CanvasDisplay.prototype.drawPlayer = function(player, x, y, width, height) {
